@@ -1,0 +1,10 @@
+#nav {
+  color: #c1b5a2;
+}
+
+#nav:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+  color: #b79061;
+}
+

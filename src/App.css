@@ -1,5 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Imprima&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Imprima&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Imprima&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+/* @import "~bootstrap/scss/bootstrap"; */
 .App {
   text-align: center;
+  height: var(--doc-height);
+  width: var(--doc-width);
 }
 
 .App-logo {
@@ -24,10 +34,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +42,29 @@
     transform: rotate(360deg);
   }
 }
+
+.imprima-regular {
+  font-family: "Imprima", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+  padding: auto;
+  margin: 2px;
+}
+
+.darker-grotesque {
+  font-family: "Darker Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+

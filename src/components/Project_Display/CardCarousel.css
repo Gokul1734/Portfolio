@@ -1,0 +1,15 @@
+.horizontal-carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.cards {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card {
+  flex: 0 0 100%;
+  /* box-sizing: border-box; */
+  padding: 20px;
+}
